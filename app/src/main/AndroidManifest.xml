@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.seapp">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:icon="@mipmap/logocrop"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logocrop"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.additional.History"></activity>
+        <activity android:name=".PostDetials" />
+        <activity android:name=".SearchFriend" />
+        <activity android:name=".FriendActivity" />
+        <activity android:name=".ui.announcement.Detail3Activity" />
+        <activity android:name=".ui.announcement.Detail2Activity" />
+        <activity android:name=".ui.announcement.Detail1Activity" />
+        <activity android:name=".ui.announcement.AnnouncementActivity" />
+        <activity android:name=".ui.additional.ContactActivity" />
+        <activity
+            android:name=".SearchActivity"
+            android:theme="@style/AppTheme.Searchbar">
+        </activity>
+        <activity android:name=".ui.additional.GuideActivity" />
+        <activity android:name=".Report" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".RegisterSuccess"
+            android:theme="@style/AppTheme.Dialog" />
+        <activity
+            android:name=".Register" />
+        <activity
+            android:name=".register2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PasswordSent"
+            android:theme="@style/AppTheme.Dialog" />
+        <activity
+            android:name=".ForgotPassword"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".lastIntroActivity"></activity>
+        <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

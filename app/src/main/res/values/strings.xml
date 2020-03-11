@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">CS Talk</string>
+    <string name="title_home">หน้าหลัก</string>
+    <string name="title_notifications">แจ้งเตือน</string>
+    <string name="title_post">สร้างกระทู้คำถาม</string>
+    <string name="title_profile">โปรไฟล์</string>
+    <string name="title_additional">เพิ่มเติม</string>
+    <string name="profile_name">Mohamed Salah</string>
+    <string name="title_contact">ติดต่อเรา</string>
+    <string name="label_gmail">cstalktalk@gmail.com</string>
+    <string name="label_facebook">CSTalk</string>
+    <string name="label_twitter">CSTalk_Talk</string>
+    <string name="label_line">cs.talk</string>
+
+    <!-- GuideActivity one-->
+    <string name="one_head">ยินดีต้อนรับสู่ CS Talk</string>
+    <string name="one_label">มาทำความรู้จักกันสักนิด</string>
+    <string name="one_label2">ว่า CS Talk ทำอะไรได้บ้าง</string>
+
+    <!-- GuideActivity two-->
+    <string name="two_head">ค้นหาเพื่อดูกระทู้คำถาม</string>
+    <string name="two_label">ค้นหากระทู้คำถามของคุณเอง และสมาชิกผู้อื่นโดยผ่านไอคอนนี้</string>
+
+    <!-- GuideActivity three-->
+    <string name="three_head">สร้างกระทู้คำถาม</string>
+    <string name="three_label">สร้างกระทู้คำถามเพื่อปรึกษา ถามปัญหาต่างๆ</string>
+
+    <!-- GuideActivity four-->
+    <string name="four_head">ตัวช่วยเพิ่มเติม</string>
+    <string name="four_label">ช่วยให้คำแนะนำ และข่าวสารภายใน CS Talk</string>
+
+    <!-- Post fragment -->
+    <string name="text_placeholder">"คุณอยากจะปรึกษา ระบาย หรือถามปัญหากับเพื่อนๆ พูดออกมาได้เลย"</string>
+
+    <!-- Announcement Activity-->
+    <string name="title_announcement">ประกาศ</string>
+    <string name="detail">รายละเอียด</string>
+
+    <!-- Ui -->
+    <string name="detail_forgot1">ป้อนที่อยู่อีเมลแอดเดรสที่คุณใช้ในการลงทะเบียนไว้กับเรา</string>
+    <string name="detail_forgot2">แล้วเราจะส่งคำแนะนำเกี่ยวกับวิธีการรีเซ็ตรหัสผ่านใหม่ไปให้คุณ</string>
+    <string name="forgotPass">ลืมรหัสผ่าน</string>
+    <string name="confirm">ยืนยัน</string>
+    <string name="notificationIcon">notification icon</string>
+    <string name="email">email</string>
+    <string name="example">อีเมล</string>
+    <string name="resetPass">รีเซ็ตรหัสผ่าน</string>
+    <string name="detail_resetPass1">คุณจะได้รับอีเมลพร้อมด้วยคำแนะนำ</string>
+    <string name="detail_resetPass2">เกี่ยวกับการตั้งค่ารหัสผ่านใหม่</string>
+</resources>

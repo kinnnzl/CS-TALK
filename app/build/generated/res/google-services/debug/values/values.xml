@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">285065147590-u0ffq7hf8tpek6qetv9es7l2d2ioho06.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://cstalk-62709.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">285065147590</string>
+    <string name="google_api_key" translatable="false">AIzaSyCV2h0XgpWAZinmea1OYoPlPlXvcyIXNy8</string>
+    <string name="google_app_id" translatable="false">1:285065147590:android:d3925b7a3b5e54fa0e53c7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCV2h0XgpWAZinmea1OYoPlPlXvcyIXNy8</string>
+    <string name="google_storage_bucket" translatable="false">cstalk-62709.appspot.com</string>
+    <string name="project_id" translatable="false">cstalk-62709</string>
+</resources>

@@ -1,0 +1,14 @@
+พิมพ์ในterminalของandroid studio
+ทุกครั้งก่อนที่จะpush,pull
+-git fetch
+
+pull
+-git pull
+
+push
+-git add .
+-git commit -m "ใส่ข้คอวามลงในนี้"
+-git push
+
+clone 
+-git clone ต่อกับลิ้ง

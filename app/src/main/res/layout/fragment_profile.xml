@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@color/colorBackgroundOne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/edit_btn"
+            android:layout_width="75dp"
+            android:layout_height="98dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginLeft="76dp"
+            android:layout_marginBottom="60dp"
+            android:background="@mipmap/editpencil"
+            app:layout_constraintBottom_toBottomOf="@+id/userPic"
+            app:layout_constraintStart_toStartOf="@+id/userPic" />
+
+        <ImageView
+            android:id="@+id/userPic"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/boycs" />
+
+        <TextView
+            android:id="@+id/displayName"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:text="ไส้กรอกไก่ ใส่พริก"
+            android:textAlignment="center"
+            android:textAppearance="@style/LamoonBold"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/userPic"
+            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintStart_toStartOf="@+id/userPic"
+            app:layout_constraintTop_toBottomOf="@+id/userPic"
+            app:layout_constraintVertical_bias="0.23000002" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="190dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/nameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="ชื่อผู้ใช้"
+                android:layout_weight="1"
+                android:textAppearance="@style/LamoonBold"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/nameLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:text="10"
+                android:layout_marginRight="35dp"
+                android:textAppearance="@style/LamoonBold"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/nameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="@drawable/edittext_grey"
+                android:ems="10"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+                android:paddingLeft="10dp"
+                android:textAppearance="@style/LamoonRegular"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Expression_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:textAppearance="@style/LamoonRegular"
+                android:text="อนุญาตให้ใช้ได้เฉพาะตัวอักษร, ตัวเลข และเครื่องหมายมหัพภาค(.) เท่านั้น"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/statusText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_weight="1"
+                android:text="สถานะ"
+                android:textAppearance="@style/LamoonBold"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/statusLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:text="10"
+                android:textAppearance="@style/LamoonBold"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_status_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/statusEdit"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="@drawable/edittext_grey"
+                android:ems="10"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+                android:paddingLeft="10dp"
+                android:textAppearance="@style/LamoonRegular"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไอดี"
+                android:layout_marginRight="35sp"
+                android:layout_marginLeft="35dp"
+                android:textAppearance="@style/LamoonBold"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/idText"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="@drawable/edittext_grey"
+                android:ems="10"
+                android:layout_marginLeft="35dp"
+                android:layout_weight="1"
+                android:layout_marginRight="2dp"
+                android:focusableInTouchMode="false"
+                android:paddingLeft="10dp"
+                android:inputType="textPersonName"
+                android:textAppearance="@style/LamoonRegular"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/icon_clipboard"
+                android:layout_width="30dp"
+                android:layout_height="34dp"
+                android:padding="3dp"
+                android:layout_marginRight="35dp"
+                android:src="@drawable/clipboard">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ประเภทผู้ใช้"
+                android:layout_marginRight="35sp"
+                android:layout_marginLeft="35dp"
+                android:textAppearance="@style/LamoonBold"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/userType"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:background="@drawable/edittext_grey"
+                android:ems="10"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:focusableInTouchMode="false"
+                android:inputType="textPersonName"
+                android:textAppearance="@style/LamoonRegular"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/commit_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_rounded"
+                android:text="ยืนยัน"
+                android:textColor="@color/black"
+                android:textAppearance="@style/LamoonBold"
+                android:textSize="18sp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

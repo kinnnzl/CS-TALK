@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/Fname2"
+        android:layout_width="115dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/borderbox"
+        android:textAppearance="@style/LamoonRegular"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/displayName"
+        app:layout_constraintTop_toBottomOf="@+id/displayName" />
+
+    <EditText
+        android:id="@+id/Lname2"
+        android:layout_width="132dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/borderbox"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textAppearance="@style/LamoonRegular"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/Fname2"
+        app:layout_constraintStart_toEndOf="@+id/Fname2"
+        app:layout_constraintTop_toTopOf="@+id/Fname2" />
+
+    <TextView
+        android:id="@+id/expression_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/LamoonRegular"
+
+        android:text="อนุญาติให้ใช้ได้เฉพาะตัวอักกษร ,ตัวเลข, และเครื่องหมายมหัพภาค(.) เท่านั้น"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textAppearance="@style/LamoonRegular"
+        android:text="ยืนยันรหัสผ่าน"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <EditText
+        android:id="@+id/confirmPass"
+        android:layout_width="263dp"
+        android:layout_height="25dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="32dp"
+        android:textAppearance="@style/LamoonRegular"
+        android:background="@drawable/borderbox"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textAppearance="@style/LamoonRegular"
+        android:text="รหัสผ่าน"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="263dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textAppearance="@style/LamoonRegular"
+        android:background="@drawable/borderbox"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="263dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textAppearance="@style/LamoonRegular"
+        android:background="@drawable/borderbox"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textAppearance="@style/LamoonRegular"
+        android:text="อีเมล"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Fname2"
+        app:layout_constraintTop_toBottomOf="@+id/Fname2" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="118dp"
+        android:layout_marginLeft="118dp"
+        android:text="นามสกุล"
+        android:textAppearance="@style/LamoonRegular"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/displayName"
+        app:layout_constraintStart_toEndOf="@+id/displayName"
+        app:layout_constraintTop_toTopOf="@+id/displayName"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/displayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/LamoonRegular"
+        android:text="ชื่อ"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="18sp"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+</androidx.constraintlayout.widget.ConstraintLayout>

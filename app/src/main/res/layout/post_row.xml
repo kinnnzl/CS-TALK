@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/postLayout"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/border_recycleview">
+
+    <ImageView
+        android:id="@+id/postOwner_image"
+        android:layout_width="74dp"
+        android:layout_height="67dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515"
+        app:srcCompat="@mipmap/boycs" />
+
+    <TextView
+        android:id="@+id/postOwner_username"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="15dp"
+        android:text="username"
+        android:textAppearance="@style/LamoonBold"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/postOwner_image"
+        app:layout_constraintTop_toTopOf="@+id/postOwner_image" />
+
+    <TextView
+        android:id="@+id/postOwner_detail"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:text="detail 135468789514687/98964156"
+        android:textAppearance="@style/LamoonRegular"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/postOwner_username"
+        app:layout_constraintTop_toBottomOf="@+id/postOwner_username" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="21dp"
+        android:layout_height="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/commentCount"
+        app:layout_constraintEnd_toStartOf="@+id/commentCount"
+        app:layout_constraintTop_toTopOf="@+id/commentCount"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/comments" />
+
+    <TextView
+        android:id="@+id/commentCount"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="10dp"
+        android:text="123"
+        android:textAppearance="@style/LamoonRegular"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/postOwner_detail"
+        app:layout_constraintTop_toBottomOf="@+id/postOwner_detail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

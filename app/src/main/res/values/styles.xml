@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LamoonBold">
+        <item name="fontPath">font/FC Lamoon Bold ver 1.00.ttf</item>
+    </style>
+
+    <style name="LamoonRegular">
+        <item name="fontPath">font/FC Lamoon Regular ver 1.00.ttf</item>
+    </style>
+
+    <!-- ui -->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@android:color/black</item>
+    </style>
+
+
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <!-- searchbar -->
+    <style name="AppTheme.Searchbar" >
+        <item name="colorPrimary">#ffffff</item>
+    </style>
+
+</resources>

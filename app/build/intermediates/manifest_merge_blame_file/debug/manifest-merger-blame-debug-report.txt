@@ -1,0 +1,206 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.seapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.google.firebase:firebase-database:16.0.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\17889964da5cdd4ecfce0470a6160d11\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+11-->[com.google.firebase:firebase-database:16.0.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\17889964da5cdd4ecfce0470a6160d11\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\17889964da5cdd4ecfce0470a6160d11\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\17889964da5cdd4ecfce0470a6160d11\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:22-64
+13
+14    <application
+14-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:5:5-58:19
+15        android:allowBackup="true"
+15-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:6:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\478b79604eaaf934858ce3739dce1708\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:hardwareAccelerated="false"
+18-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:7:9-44
+19        android:icon="@mipmap/logocrop"
+19-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:9:9-40
+20        android:label="@string/app_name"
+20-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:10:9-41
+21        android:largeHeap="true"
+21-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:8:9-33
+22        android:roundIcon="@mipmap/logocrop"
+22-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:11:9-45
+23        android:supportsRtl="true"
+23-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:12:9-35
+24        android:theme="@style/AppTheme" >
+24-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:13:9-40
+25        <activity android:name="com.example.seapp.ui.additional.History" />
+25-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:14:9-68
+25-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:14:19-56
+26        <activity android:name="com.example.seapp.PostDetials" />
+26-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:15:9-49
+26-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:15:19-46
+27        <activity android:name="com.example.seapp.SearchFriend" />
+27-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:16:9-50
+27-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:16:19-47
+28        <activity android:name="com.example.seapp.FriendActivity" />
+28-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:17:9-52
+28-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:17:19-49
+29        <activity android:name="com.example.seapp.ui.announcement.Detail3Activity" />
+29-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:18:9-69
+29-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:18:19-66
+30        <activity android:name="com.example.seapp.ui.announcement.Detail2Activity" />
+30-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:19:9-69
+30-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:19:19-66
+31        <activity android:name="com.example.seapp.ui.announcement.Detail1Activity" />
+31-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:20:9-69
+31-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:20:19-66
+32        <activity android:name="com.example.seapp.ui.announcement.AnnouncementActivity" />
+32-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:21:9-74
+32-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:21:19-71
+33        <activity android:name="com.example.seapp.ui.additional.ContactActivity" />
+33-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:22:9-67
+33-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:22:19-64
+34        <activity
+34-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:23:9-26:20
+35            android:name="com.example.seapp.SearchActivity"
+35-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:24:13-43
+36            android:theme="@style/AppTheme.Searchbar" >
+36-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:25:13-54
+37        </activity>
+38        <activity android:name="com.example.seapp.ui.additional.GuideActivity" />
+38-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:27:9-65
+38-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:27:19-62
+39        <activity android:name="com.example.seapp.Report" />
+39-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:28:9-44
+39-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:28:19-41
+40        <activity
+40-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:29:9-31:48
+41            android:name="com.example.seapp.MainActivity"
+41-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:30:13-41
+42            android:label="@string/app_name" />
+42-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:31:13-45
+43        <activity
+43-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:32:9-34:54
+44            android:name="com.example.seapp.RegisterSuccess"
+44-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:33:13-44
+45            android:theme="@style/AppTheme.Dialog" />
+45-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:34:13-51
+46        <activity android:name="com.example.seapp.Register" />
+46-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:35:9-36:40
+46-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:36:13-37
+47        <activity
+47-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:37:9-39:59
+48            android:name="com.example.seapp.register2"
+48-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:38:13-38
+49            android:theme="@style/AppTheme.NoActionBar" />
+49-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:39:13-56
+50        <activity
+50-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:40:9-42:54
+51            android:name="com.example.seapp.PasswordSent"
+51-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:41:13-41
+52            android:theme="@style/AppTheme.Dialog" />
+52-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:42:13-51
+53        <activity
+53-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:43:9-45:59
+54            android:name="com.example.seapp.ForgotPassword"
+54-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:44:13-43
+55            android:theme="@style/AppTheme.NoActionBar" />
+55-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:45:13-56
+56        <activity
+56-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:46:9-49:20
+57            android:name="com.example.seapp.LoginActivity"
+57-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:47:13-42
+58            android:theme="@style/AppTheme.NoActionBar" >
+58-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:48:13-56
+59        </activity>
+60        <activity android:name="com.example.seapp.lastIntroActivity" />
+60-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:50:9-64
+60-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:50:19-52
+61        <activity android:name="com.example.seapp.IntroActivity" >
+61-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:51:9-57:20
+61-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:51:19-48
+62            <intent-filter>
+62-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:52:13-56:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:53:17-69
+63-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:53:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:55:17-77
+65-->C:\Users\User\Desktop\SE\Se_app\SE_app\app\src\main\AndroidManifest.xml:55:27-74
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f1135489887a0978ea44bcf6f63a3e11\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+69            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+69-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f1135489887a0978ea44bcf6f63a3e11\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+70            android:excludeFromRecents="true"
+70-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f1135489887a0978ea44bcf6f63a3e11\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+71            android:exported="true"
+71-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f1135489887a0978ea44bcf6f63a3e11\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+72            android:launchMode="singleTask"
+72-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f1135489887a0978ea44bcf6f63a3e11\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+73            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+73-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f1135489887a0978ea44bcf6f63a3e11\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f1135489887a0978ea44bcf6f63a3e11\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+75
+76        <service
+76-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f1135489887a0978ea44bcf6f63a3e11\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+77            android:name="com.google.firebase.components.ComponentDiscoveryService"
+77-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f1135489887a0978ea44bcf6f63a3e11\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+78            android:exported="false" >
+78-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f1135489887a0978ea44bcf6f63a3e11\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+79            <meta-data
+79-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f1135489887a0978ea44bcf6f63a3e11\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+80                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+80-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f1135489887a0978ea44bcf6f63a3e11\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f1135489887a0978ea44bcf6f63a3e11\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+82        </service>
+83
+84        <activity
+84-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ce47994c4f884269090ffb1476ae35dd\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+85-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ce47994c4f884269090ffb1476ae35dd\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ce47994c4f884269090ffb1476ae35dd\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ce47994c4f884269090ffb1476ae35dd\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+88
+89        <provider
+89-->[com.google.firebase:firebase-common:16.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7c8ccb290b96e34efe1d4608ac09d019\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+90            android:name="com.google.firebase.provider.FirebaseInitProvider"
+90-->[com.google.firebase:firebase-common:16.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7c8ccb290b96e34efe1d4608ac09d019\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+91            android:authorities="com.example.seapp.firebaseinitprovider"
+91-->[com.google.firebase:firebase-common:16.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7c8ccb290b96e34efe1d4608ac09d019\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+92            android:exported="false"
+92-->[com.google.firebase:firebase-common:16.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7c8ccb290b96e34efe1d4608ac09d019\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+93            android:initOrder="100" />
+93-->[com.google.firebase:firebase-common:16.0.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7c8ccb290b96e34efe1d4608ac09d019\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+94
+95        <meta-data
+95-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f1315b68e7711c7b8161e916a5307266\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+96            android:name="com.google.android.gms.version"
+96-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f1315b68e7711c7b8161e916a5307266\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+97            android:value="@integer/google_play_services_version" />
+97-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f1315b68e7711c7b8161e916a5307266\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+98
+99        <provider
+99-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\30585dfb4796ccf6c9f3a08fe0973e85\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+100            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+100-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\30585dfb4796ccf6c9f3a08fe0973e85\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+101            android:authorities="com.example.seapp.lifecycle-process"
+101-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\30585dfb4796ccf6c9f3a08fe0973e85\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+102            android:exported="false"
+102-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\30585dfb4796ccf6c9f3a08fe0973e85\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+103            android:multiprocess="true" />
+103-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\30585dfb4796ccf6c9f3a08fe0973e85\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+104    </application>
+105
+106</manifest>

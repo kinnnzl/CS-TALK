@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Master -->
+    <color name="colorPrimary">#FFB05E</color>
+    <color name="colorPrimaryDark">#FF9A26</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBackgroundOne">#ffffff</color>
+    <color name="colorCardView">#CECECE</color>
+    <color name="tabIndicator">#ffffff</color>
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="black">#000000</color>
+
+    <!-- ui -->
+    <color name="colorCSTheme">#F18B18</color>
+    <color name="cs_orange">#FEA750</color>
+    <color name="cs_green">#55B526</color>
+    <color name="cs_black">#000000</color>
+</resources>
